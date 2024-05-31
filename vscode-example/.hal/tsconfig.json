@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2020",
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"esnext"
+		  ],
+		"outDir": "load/",
+		"sourceMap": true,
+		"strict": true,
+		"rootDir": "src",
+		// "paths": {
+		// 	"ihgraph" : ["../node_modules/@pragmatic-programming/ihgraph"]
+		// }
+	},
+
+	"exclude": ["node_modules", ".vscode-test"],
+	//"include": ["src/"]
+}

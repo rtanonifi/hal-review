@@ -1,0 +1,9 @@
+# pre-built HAL GUI
+media/
+
+# Dependencies
+node_modules/
+out/
+
+# Build Artifact
+*.vsix

@@ -1,0 +1,22 @@
+{
+    "name": "hal-examples",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://pragmatic-programming.github.io/hal/",
+    "dependencies": {
+        "@pragmatic-programming/hal": "file:./../../hal/gui",
+        "@pragmatic-programming/ihgraph": "0.0.1-rc.3",
+        "@pragmatic-programming/kico": "^0.0.1-rc.1"
+    },
+    "devDependencies": {
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.4.5",
+        "webpack": "^5.4.0",
+        "webpack-cli": "^4.2.0"
+    },
+    "scripts": {
+        "compile": "tsc -p ./",
+        "watch": "tsc -w -p ./",
+        "pack": "webpack"
+    }
+}

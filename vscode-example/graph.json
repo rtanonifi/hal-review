@@ -1,0 +1,84 @@
+{
+    "_objectId": "0x0000c26f",
+    "annotations": {},
+    "nodes": [
+        {
+            "_objectId": "0x0000c270",
+            "annotations": {
+                "nodeData": {
+                    "id": "nodeData",
+                    "data": {
+                        "content": "",
+                        "label": "Editor",
+                        "language": "JavaScript",
+                        "status": "UNDEFINED",
+                        "type": "editor",
+                        "position": {
+                            "x": 360,
+                            "y": 15
+                        },
+                        "width": 297,
+                        "height": 197
+                    }
+                }
+            },
+            "id": "1",
+            "content": ""
+        },
+        {
+            "_objectId": "0x0000c271",
+            "annotations": {
+                "nodeData": {
+                    "id": "nodeData",
+                    "data": {
+                        "content": "",
+                        "label": "Editor",
+                        "language": "JavaScript",
+                        "status": "UNDEFINED",
+                        "type": "editor",
+                        "position": {
+                            "x": -405,
+                            "y": -120
+                        },
+                        "width": 299,
+                        "height": 199
+                    }
+                }
+            },
+            "id": "2",
+            "content": ""
+        }
+    ],
+    "edgeTypes": [
+        {
+            "_objectId": "0x0000c272",
+            "annotations": {},
+            "id": "demo",
+            "priority": 1,
+            "immediate": false
+        }
+    ],
+    "edges": [
+        {
+            "_objectId": "0x0000c273",
+            "annotations": {
+                "edgeData": {
+                    "id": "edgeData",
+                    "data": {
+                        "type": "empty",
+                        "sourceHandle": "right",
+                        "targetHandle": "left",
+                        "edgePathStyle": "Smooth",
+                        "priority": 1,
+                        "immediate": false,
+                        "bidirectional": false,
+                        "description": ""
+                    }
+                }
+            },
+            "edgeType": "demo",
+            "sourceNode": "2",
+            "targetNode": "1"
+        }
+    ]
+}

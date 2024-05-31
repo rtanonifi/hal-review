@@ -1,0 +1,193 @@
+{
+    "_objectId": "0x0000c274",
+    "annotations": {},
+    "nodes": [
+        {
+            "_objectId": "0x0000c275",
+            "annotations": {
+                "nodeData": {
+                    "id": "nodeData",
+                    "data": {
+                        "content": "npm publish",
+                        "label": "Publish",
+                        "language": "JavaScript",
+                        "status": "UNDEFINED",
+                        "type": "editor",
+                        "position": {
+                            "x": 1020,
+                            "y": 90
+                        },
+                        "width": 342,
+                        "height": 242
+                    }
+                }
+            },
+            "id": "4",
+            "content": "npm publish"
+        },
+        {
+            "_objectId": "0x0000c28b",
+            "annotations": {
+                "nodeData": {
+                    "id": "nodeData",
+                    "data": {
+                        "content": "eslint",
+                        "label": "Lint",
+                        "language": "JavaScript",
+                        "status": "UNDEFINED",
+                        "type": "editor",
+                        "position": {
+                            "x": 270,
+                            "y": 180
+                        },
+                        "width": 322,
+                        "height": 222
+                    }
+                }
+            },
+            "id": "3",
+            "content": "eslint"
+        },
+        {
+            "_objectId": "0x0000c28c",
+            "annotations": {
+                "nodeData": {
+                    "id": "nodeData",
+                    "data": {
+                        "content": "npm run build",
+                        "label": "Build",
+                        "language": "JavaScript",
+                        "status": "UNDEFINED",
+                        "type": "editor",
+                        "position": {
+                            "x": 270,
+                            "y": -180
+                        },
+                        "width": 314,
+                        "height": 214
+                    }
+                }
+            },
+            "id": "2",
+            "content": "npm run build"
+        },
+        {
+            "_objectId": "0x0000c28d",
+            "annotations": {
+                "nodeData": {
+                    "id": "nodeData",
+                    "data": {
+                        "content": "npm install",
+                        "label": "Install",
+                        "language": "JavaScript",
+                        "status": "UNDEFINED",
+                        "type": "editor",
+                        "position": {
+                            "x": -660,
+                            "y": -195
+                        },
+                        "width": 354,
+                        "height": 254
+                    }
+                }
+            },
+            "id": "1",
+            "content": "npm install"
+        }
+    ],
+    "edgeTypes": [
+        {
+            "_objectId": "0x0000c28e",
+            "annotations": {},
+            "id": "ci",
+            "priority": 1,
+            "immediate": false
+        }
+    ],
+    "edges": [
+        {
+            "_objectId": "0x0000c28f",
+            "annotations": {
+                "edgeData": {
+                    "id": "edgeData",
+                    "data": {
+                        "type": "empty",
+                        "sourceHandle": "right",
+                        "targetHandle": "left",
+                        "edgePathStyle": "Smooth",
+                        "priority": 1,
+                        "immediate": false,
+                        "bidirectional": false,
+                        "description": ""
+                    }
+                }
+            },
+            "edgeType": "ci",
+            "sourceNode": "2",
+            "targetNode": "4"
+        },
+        {
+            "_objectId": "0x0000c290",
+            "annotations": {
+                "edgeData": {
+                    "id": "edgeData",
+                    "data": {
+                        "type": "empty",
+                        "sourceHandle": "right",
+                        "targetHandle": "left",
+                        "edgePathStyle": "Smooth",
+                        "priority": 1,
+                        "immediate": false,
+                        "bidirectional": false,
+                        "description": ""
+                    }
+                }
+            },
+            "edgeType": "ci",
+            "sourceNode": "3",
+            "targetNode": "4"
+        },
+        {
+            "_objectId": "0x0000c291",
+            "annotations": {
+                "edgeData": {
+                    "id": "edgeData",
+                    "data": {
+                        "type": "empty",
+                        "sourceHandle": "right",
+                        "targetHandle": "left",
+                        "edgePathStyle": "Smooth",
+                        "priority": 1,
+                        "immediate": false,
+                        "bidirectional": false,
+                        "description": ""
+                    }
+                }
+            },
+            "edgeType": "ci",
+            "sourceNode": "1",
+            "targetNode": "3"
+        },
+        {
+            "_objectId": "0x0000c292",
+            "annotations": {
+                "edgeData": {
+                    "id": "edgeData",
+                    "data": {
+                        "type": "empty",
+                        "sourceHandle": "right",
+                        "targetHandle": "left",
+                        "edgePathStyle": "Smooth",
+                        "priority": 1,
+                        "immediate": false,
+                        "bidirectional": false,
+                        "description": ""
+                    }
+                }
+            },
+            "edgeType": "ci",
+            "sourceNode": "1",
+            "targetNode": "2"
+        }
+    ]
+}
